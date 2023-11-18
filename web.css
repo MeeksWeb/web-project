@@ -1,0 +1,362 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* margin: 10px; */
+}
+header.head{
+    background-color: rgb(218, 246, 246);
+    padding: 15px;
+    height: 380px;
+  
+}
+header a i {
+    margin: 5px;
+}
+div.top-nav{
+    display: flex;
+    justify-content: space-between;
+}
+a.huddle{
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+button.nav-button a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-weight: bolder;
+}
+button.nav-button{
+    border-radius: 10px;
+    border-width: 0;
+    padding: 5px;
+    background-color: rgb(251, 249, 245);
+    box-shadow: 1px 1px 2px rgb(148, 137, 137);
+    margin-right: 12px;
+}
+button.nav-button:hover{
+    box-shadow: 1px 3px 5px rgb(148, 137, 137);
+}
+header .both{
+    display: flex;
+
+}
+header .both .left{
+    margin-top: 90px;
+}
+.right-img img{
+    margin-top: 30px;
+    margin-right: 25px;
+    /* margin-bottom: 50; */
+}
+
+div .head-button{
+    background-color: rgb(255, 118, 187);
+    color: rgb(213, 221, 228);
+    padding: 8px;
+    font-weight: bolder;
+    border-radius: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 15px;
+    border-width: 0;
+    box-shadow: 1px 1px 2px rgb(204, 191, 191);
+
+}
+div .head-button:hover{
+    box-shadow: 1px 3px 5px rgb(172, 104, 151);
+}
+
+section.sec-one{
+    margin: 40px;
+    padding: 30px;
+    display: flex;
+    margin-top: 80px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 5px rgb(148, 137, 137);
+}
+section.sec-two{
+    margin: 40px;
+    padding: 30px;
+    display: flex;
+    margin-top: 80px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 5px rgb(148, 137, 137);
+}
+section.sec-three{
+    margin: 40px;
+    padding: 30px;
+    display: flex;
+    margin-top: 80px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 5px rgb(148, 137, 137);
+}
+section .sec-one-div{
+    padding: 50px;
+}
+section .sec-two-div{
+    padding: 50px;
+}
+section .sec-three-div{
+    padding: 50px;
+}
+
+/* SECTION WITH CLASS OF MID STARTS HERE */
+section.mid{
+    background-color: rgb(236, 235, 233);
+    box-shadow: 1px 3px 5px rgb(148, 137, 137);
+    display: inline-block;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 55px;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+section .mid-h4{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+section button{
+    background-color: rgb(255, 118, 187);
+    padding: 8px;
+    font-weight: bolder;
+    border-radius: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-width: 0;
+    box-shadow: 1px 1px 2px rgb(138, 92, 127);
+    
+}
+section button:hover{
+    box-shadow: 1px 3px 5px rgb(172, 104, 151);
+}
+
+section button a{
+    text-decoration: none;
+    color: rgb(213, 221, 228);
+
+}
+
+/* FOOTER STARTS HERE */
+footer{
+    color: rgb(216, 224, 232);
+    background-color: teal;
+    padding: 40px;
+    width: 100%;
+    margin-top: -50px;
+}
+footer .whole-foot{
+    display: flex;
+}
+footer h2{
+    color: rgb(245, 247, 248);
+   
+}
+footer .first-foot{
+    margin: 30px;
+}
+footer .first-foot .first-left{
+    margin-top: 20px;
+}
+footer .first-foot i{
+    margin: 10px;
+}
+footer .second-foot{
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    margin-top: 93px;
+    margin-right: 200px;
+}
+footer .second-foot .foot-list{
+    list-style-type: none;
+    margin-right: 50px;
+    
+}
+footer .second-foot .foot-list li{
+    padding-top: 10px;
+}
+footer .second-foot .foot-list li a{
+    padding-top: 10px;
+    display: inline-block;
+    width: max-content;
+    text-decoration: none;
+    color: rgb(216, 224, 232);
+    /* margin-right: 50px; */
+}
+/* footer .second-foot .foot-list li a:hover{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 5px;
+    width: max-content;
+    background-color: rgb(76, 72, 72);
+    
+} */
+footer .second-foot .foot-list2{
+    list-style-type: none;
+    margin-left: 20px;
+    
+}
+footer .second-foot .foot-list2 li{
+    padding-top: 10px;
+   
+}
+footer .second-foot .foot-list2 li a{
+    padding-top: 10px;
+    display: inline-block;
+    width: max-content;
+    text-decoration: none;
+    color: rgb(216, 224, 232);
+    
+}
+/* footer .second-foot .foot-list2 li a:hover{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1px;
+    border-radius: 5px;
+    width: max-content;
+    background-color: rgb(76, 72, 72);
+    
+} */
+footer .third-foot{
+    margin-top: 100px;
+}
+footer .third-foot .icon{
+    display: flex;
+    list-style-type: none;
+}
+footer .third-foot i {
+    margin: 10px;
+    color: rgb(216, 224, 232);
+    
+}
+footer .copy .last{
+    margin-left: 70%;
+    margin-top: 70px;
+}
+@media ( min-width: 480px) and (max-width : 780px){
+    body{
+        width: 100%;
+    }
+   
+    header .both{
+        display: inline-block;
+    
+    }
+    div .head-button{
+        background-color: rgb(255, 118, 187);
+        color: rgb(213, 221, 228);
+        padding: 8px;
+        font-weight: bolder;
+        border-radius: 15px;
+        padding-left: 8px;
+        padding-right: 18px;
+        margin-top: 18px;
+        border-width: 0;
+        text-align: center;
+        box-shadow: 1px 1px 2px rgb(204, 191, 191);
+    }
+    .right-img img{
+        margin-top: 10px;
+        margin-left: 7%;
+    }
+    div .head-button{
+        margin-left: 38%;
+    }
+    header.head{
+        background-color: rgb(218, 246, 246);
+        padding: 15px;
+        height: 630px;
+      
+    }
+section.sec-one{
+    display: block;
+}
+section.sec-two{
+    display: block;
+}
+section.sec-three{
+    display: block;
+}
+footer .whole-foot{
+    display: block;
+    margin-left: -40px;
+}
+section.mid{
+    margin-left: 7%;
+}
+footer .second-foot{
+    display: block;
+    margin-top: 0;
+    margin-left: 40px;
+}
+footer .copy .last{
+    /* margin-bottom: 20%; */
+    margin-left: 8%; 
+    width: max-content;
+}
+footer .copy {
+    
+}
+footer .third-foot{
+    margin: 80px;
+}
+footer .third-foot i {
+    margin: 10px;
+    color: rgb(216, 224, 232);
+    
+}
+footer .third-foot {
+    margin-top: 0px;
+    margin-left: 40%; 
+}
+footer .second-foot .foot-list2{
+    margin-left: 1px;
+}
+
+    
+} 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
